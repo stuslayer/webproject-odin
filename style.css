@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     flex: 1;
     font-family: 'Roboto', sans-serif;
+    min-width: 430px;
 }
 
 .header {
@@ -46,7 +47,6 @@ ul {
     align-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
-    
 }
 
 
@@ -96,4 +96,34 @@ ul {
     max-width: 400px;
     min-height: 300px;
     border-radius: 25px;
+}
+
+.img-container {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.img-header {
+    color: #1f2937;
+    display: flex;
+    font-weight: extra-bold;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-board-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-board {
+    border: 3px solid black;
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
 }
