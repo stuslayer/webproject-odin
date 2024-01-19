@@ -127,3 +127,18 @@ ul {
     height: 250px;
     border-radius: 10px;
 }
+
+.quote-area {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+
+}
