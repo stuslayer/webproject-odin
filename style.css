@@ -21,11 +21,12 @@
     margin-left: 16px;
 }
 
-.header-links {
+.header-links, a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
     list-style-type: none;
+    gap: 10px;
 }
 
 ul {
@@ -85,7 +86,7 @@ ul {
     max-width: 50%;
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content:flex-end;
 
 }
 
