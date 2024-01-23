@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
     min-width: 430px;
+    margin: 0;
 }
 
 .header {
@@ -236,3 +237,4 @@ button:hover {
     min-height: 50px;
     
 }
+
